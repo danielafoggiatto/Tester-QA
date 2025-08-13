@@ -1,0 +1,63 @@
+# Portfólio de Testes Manuais – TodoMVC
+
+Este repositório contém o **plano de teste manual** aplicado ao projeto **TodoMVC**. O objetivo é demonstrar habilidades em QA, incluindo criação de casos de teste, execução de testes manuais e registro de evidências.
+
+---
+
+## 📌 Sobre o Projeto
+
+**TodoMVC** é uma aplicação simples de lista de tarefas (To-Do List) que permite ao usuário:
+
+- Adicionar itens à lista
+- Marcar itens como concluídos
+- Filtrar itens por status (Todos, Ativos, Concluídos)
+- Remover itens ou limpar itens concluídos
+
+Esta aplicação foi usada como base para criação de casos de teste manuais.
+
+---
+
+## 🧪 Funcionalidades Testadas
+
+1. **Tela Inicial**  
+   - Verificação da exibição correta da aplicação e input inicial.
+
+2. **Adicionar Itens**  
+   - Inserção de novos itens na lista e validação da exibição correta.
+
+3. **Validar Filtros**  
+   - Filtros "Todos", "Ativos" e "Concluídos" funcionando corretamente.
+
+4. **Conclusão de Itens**  
+   - Marcar itens individualmente ou em lote como concluídos.
+
+5. **Desmarcar Itens**  
+   - Verificação do comportamento ao desmarcar itens concluídos.
+
+6. **Limpar Itens Concluídos**  
+   - Remoção dos itens concluídos da lista.
+
+---
+
+## 📄 Estrutura do Plano de Teste
+
+Cada funcionalidade contém:
+
+- **User Story:** descreve a necessidade do usuário  
+- **Regras de Negócio:** comportamentos esperados da aplicação  
+- **Critérios de Aceite:** condições mínimas para considerar o teste bem-sucedido  
+
+Exemplo (Adicionar Itens):
+
+| User Story | Regras de Negócio | Critérios de Aceite |
+|------------|-----------------|-------------------|
+| Como usuário da aplicação, gostaria de criar uma lista. | RN1: Ao adicionar o primeiro item na lista, deve-se exibir no topo da lista o item que foi adicionado. <br> RN2: Ao adicionar um item, deve ser possível removê-lo posteriormente. | CA1: Dado que uma lista foi criada, quando um item for adicionado, ele deve ser exibido na lista. <br> CA2: Dado um item adicionado, deve ser possível removê-lo. |
+
+---
+
+## 📸 Evidências
+
+Evidências dos testes (prints ou GIFs) podem ser encontrados no arquivo.
+
+Link para visualização no Miro: https://miro.com/app/board/uXjVJVoOkYA=/?share_link_id=222390340801
+
